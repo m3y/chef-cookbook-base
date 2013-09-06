@@ -11,5 +11,6 @@ include_recipe "build-essential"
 include_recipe "vim"
 
 package "git"
-package "tig" 
+package "tig"
 package "curl"
+package "exuberant-ctags"
