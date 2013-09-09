@@ -14,7 +14,7 @@ tar_name = "tmux-1.8"
 script 'tmux' do
     interpreter 'bash'
     user 'root'
-    cwd Chef::Config['file_cache_path']
+    cwd '/tmp'
     code <<-EOH
       wget http://downloads.sourceforge.net/tmux/#{tar_name}.tar.gz
       tar -zxf #{tar_name}.tar.gz
