@@ -7,6 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
+package 'libevent-dev'
+package 'libncurses5-dev'
+
 tar_name = "tmux-1.8"
 script 'tmux' do
     interpreter 'bash'
