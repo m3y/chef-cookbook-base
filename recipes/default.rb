@@ -2,7 +2,7 @@
 # Cookbook Name:: base
 # Recipe:: default
 #
-# Copyright 2013, YOUR_COMPANY_NAME
+# Copyright 2013, m3y 
 #
 # All rights reserved - Do Not Redistribute
 #
